@@ -4,7 +4,7 @@ import { AboutComponent } from './MyComponents/about/about.component';
 import { TodosComponent } from './MyComponents/todos/todos.component';
 
 const routes: Routes = [
-  { path: 'TODO-LIST/', component: TodosComponent },
+  { path: 'TODO-LIST', component: TodosComponent },
   { path: 'TODO-LIST/about', component: AboutComponent },
 ];
 
